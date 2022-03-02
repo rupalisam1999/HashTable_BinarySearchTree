@@ -16,6 +16,7 @@ namespace HashTable_BinarySearchTreee
                 hash.Add(key, word);
                 key++;
             }
+            hash.Remove(9);
             for (key = 0; key < paragraph.Length; key++)
             {
                 string value = hash.Get(key);
